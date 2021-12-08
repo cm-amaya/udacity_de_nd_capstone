@@ -100,7 +100,11 @@ I choose to model the available data into a star schema given the known advantag
 
 #### Step 4.1: Data Pipeline
 
+The first step in the pipeline is to load the raw data, both the video and categorical data files, for each file a series of transformations is followed using Pandas to ensure the schema and add the corresponding surrogate keys. After the initial load and the transformations, the data from all the files is concatenated into their corresponding DataFrame which is used later to extract the corresponding fact and dimensional tables.
+
 ![ETL process](images/etl.png)
+
+The run the ETL process use the Python script: `etl.py`.
 
 #### Step 4.2: Data Quality Checks
 
