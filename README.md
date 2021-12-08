@@ -62,6 +62,8 @@ I use YouTube daily, and I'm intrigued to know more about the types of videos th
 - Feature contribution analysis on what makes a video more prompt to be popular.
 - YouTube video classification based on title.
 
+To obtained the data, run the bash script `download_data.sh` after installing the libraries in `requirements.txt`.
+
 ### Step 2: Explore and Assess the Data
 
 I decided to do an exploratory data analysis using Pandas Profiling library, some of the problems that were found in the source data are the following:
@@ -204,5 +206,5 @@ I would use a database in the cloud such as Amazon RDS, that enables scaling and
 
 ## References
 
-Original Dataset: [YouTube Trending Video Dataset](https://www.kaggle.com/datasnaek/youtube-new)
-Updated Dataset: [YouTube Trending Video Dataset(updated daily)](https://www.kaggle.com/rsrishav/youtube-trending-video-dataset)
+- Original Dataset: [YouTube Trending Video Dataset](https://www.kaggle.com/datasnaek/youtube-new)
+- Updated Dataset: [YouTube Trending Video Dataset(updated daily)](https://www.kaggle.com/rsrishav/youtube-trending-video-dataset)
